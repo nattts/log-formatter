@@ -1,0 +1,28 @@
+body {
+    background-color: silver;
+}
+
+.main-container {
+    padding: 10px;
+    margin: 20px;
+}
+
+
+.pane-container-top, .pane-container-bottom {
+    margin: 20px;
+}
+
+textarea {
+    background-color: initial;
+}
+
+.btn {
+    background-color: #DCE7E8;
+    border-radius: 8px;
+    border-width: 3px;
+    padding: 12px;
+    cursor: pointer;
+    &:hover {
+        background-color: burlywood;
+      }
+}
