@@ -8,17 +8,15 @@ interface IProps {
     onClick?: (data: string) => void;
 }
 
-export class FormatButton extends React.Component<IProps> {
-    render() {
-        const {name, className, inputValue, onClick} = this.props;
-        return (
-            <div className={className}>
-                <button className="btn" onClick={() => {
-                   if(inputValue) {
-                    onClick && onClick(separateWithComma(inputValue));
-                   }
-                } }> {name} </button>
-            </div>      
-        )
-    }
+export const FormatButton = (props: IProps) => {
+    const {name, className, inputValue, onClick} = props;
+    return (
+        <div className={className}>
+            <button className="btn" onClick={() => {
+                if(inputValue) {
+                onClick && onClick(separateWithComma(inputValue));
+                }
+            } }> {name} </button>
+        </div>      
+    )
 }

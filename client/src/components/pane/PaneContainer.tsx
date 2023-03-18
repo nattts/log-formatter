@@ -17,7 +17,7 @@ export default class PaneContainer extends React.Component<{}, IState> {
         }
     }
 
-    handleChange = (event: React.ChangeEvent<HTMLTextAreaElement>): any => {
+    handleChange = (event: React.ChangeEvent<HTMLTextAreaElement>): void => {
         this.setState({value: event.target.value});
     }
 

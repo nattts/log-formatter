@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel ./client/public/index.html -p 1000 --open",
+    "dev": "parcel ./client/public/index.html -p 1000 --open",
     "build": "parcel build ./client/public/index.html --no-source-maps"
   },
   "@parcel/transformer-css": {
