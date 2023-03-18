@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  app:
+    build: .
+    image: log_formatter_image
+    container_name: log_formatter_server
+    ports:
+      - "1000:1000"
