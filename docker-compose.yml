@@ -2,7 +2,7 @@ version: "3.9"
 services:
   app:
     build: .
-    image: log_formatter_image
-    container_name: log_formatter_server
+    image: log_formatter_i
+    container_name: log_formatter_c
     ports:
       - "1000:1000"
