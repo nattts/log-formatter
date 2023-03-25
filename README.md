@@ -1,11 +1,11 @@
 
-## Tiny app to format log objects into a proper json and to colorizes it for the better view.
+## Tiny app to format and colorize log objects into a proper json for the better view.
 
 ### how to run:
 
 1. `git clone git@github.com:nattts/log-formatter.git`
 2.  make sure Docker is running locally.
-3.  cd into main directory and run docker-compose up.
+3.  cd into main directory and run `docker-compose up`.
 
 
 ### usage:
